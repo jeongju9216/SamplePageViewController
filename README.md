@@ -9,6 +9,7 @@ UIPageViewController에서 발생하는 에러를 재현하기 위한 프로젝�
 1. 다음페이지로 넘겨서 마지막 페이지까지 이동합니다.
 2. 마지막 페이지에서 "오른쪽 위에서 왼쪽 아래" 방향으로 드래그합니다.
 3. viewControllerAfter 메서드가 비정상적으로 많이 호출되며 크래시가 발생합니다.
+  - The number of view controllers provided (0) doesn't match the number required (2) for the requested transition
 
 ## 영상
 
