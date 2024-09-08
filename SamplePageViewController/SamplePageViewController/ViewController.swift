@@ -56,9 +56,9 @@ final class ViewController: UIViewController {
     
     @objc
     private func showPageViewController(_ sender: UIButton) {
-        let pageViewController = MyPageViewController(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: [.spineLocation: NSNumber(integerLiteral: UIPageViewController.SpineLocation.mid.rawValue)])
-        pageViewController.modalPresentationStyle = .fullScreen
-        present(pageViewController, animated: true)
+        let myPageViewController = MyPageViewController()
+        myPageViewController.modalPresentationStyle = .fullScreen
+        present(myPageViewController, animated: true)
     }
 }
 
