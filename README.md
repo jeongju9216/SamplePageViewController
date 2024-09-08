@@ -1,5 +1,5 @@
 # SamplePageViewController
-`UIPageViewController`에서 발생하는 컴파일 에러를 재현하기 위한 프로젝트 ([포럼 문의](https://developer.apple.com/forums/thread/761662))
+`UIPageViewController`에서 발생하는 크래시를 재현하기 위한 프로젝트 ([포럼 문의](https://developer.apple.com/forums/thread/761662))
 
 ## 주의사항
 시뮬레이터에서는 발생하지 않습니다.  
